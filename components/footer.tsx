@@ -100,12 +100,12 @@ export function Footer() {
 
     <div className="flex items-center space-x-2">
       <Phone size={16} className="text-evergreen-orange" />
-      <span className="text-gray-300 text-sm">+94 763 855 506</span>
+      <span className="text-gray-300 text-sm">+94 763 855 506 (Mobile)</span>
     </div>
 
     <div className="flex items-center space-x-2">
       <Phone size={16} className="text-evergreen-orange" />
-      <span className="text-gray-300 text-sm">+94 776 118 111</span>
+      <span className="text-gray-300 text-sm">+94 776 118 111 (Mobile)</span>
     </div>
 
               <div className="flex items-center space-x-2">

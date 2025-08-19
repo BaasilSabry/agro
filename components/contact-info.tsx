@@ -27,8 +27,9 @@ export function ContactInfo() {
             </div>
             <div>
               <h3 className="font-semibold text-gray-900">Call Us</h3>
-              <p className="text-gray-600">+94 11 234 5678</p>
-              <p className="text-gray-600">+94 77 123 4567 (Mobile)</p>
+              <p className="text-gray-600">+94 11 209 6221</p>
+              <p className="text-gray-600">+94 763 855 506 (Mobile)</p>  
+              <p className="text-gray-600">+94 776 118 111 (Mobile)</p>  
             </div>
           </div>
 
