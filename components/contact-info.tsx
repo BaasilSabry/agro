@@ -81,7 +81,7 @@ export function ContactInfo() {
       <Card className="bg-gradient-to-r from-evergreen-medium to-evergreen-light text-white shadow-lg">
         <CardContent className="p-6 text-center">
           <h3 className="text-xl font-bold text-evergreen-dark mb-2 ">Ready to Get Started?</h3>
-          <p className="mb-4 text-gray-700">Join hundreds of satisfied customers who trust EverGreen for their agricultural needs.</p>
+          <p className="mb-4 text-gray-700">Join hundreds of satisfied customers who trust CROWNFIELD for their agricultural needs.</p>
           <div className="flex flex-col sm:flex-row gap-2 justify-center">
             <span className="bg-black px-4 py-2 rounded-lg text-sm">✓ Quality Guaranteed</span>
             <span className="bg-black px-4 py-2 rounded-lg text-sm">✓ Fast Response</span>
