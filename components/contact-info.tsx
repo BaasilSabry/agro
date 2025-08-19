@@ -57,7 +57,7 @@ export function ContactInfo() {
       </Card>
 
       {/* Quick Services */}
-      <Card className="shadow-lg">
+      <Card className="shadow-lg lg:hidden">
         <CardHeader>
           <CardTitle className="text-xl text-evergreen-dark">Quick Services</CardTitle>
         </CardHeader>
@@ -78,7 +78,7 @@ export function ContactInfo() {
       </Card>
 
       {/* Call to Action */}
-      <Card className="bg-gradient-to-r from-evergreen-medium to-evergreen-light text-white shadow-lg">
+      <Card className="bg-gradient-to-r from-evergreen-medium to-evergreen-light text-white shadow-lg lg:hidden">
         <CardContent className="p-6 text-center">
           <h3 className="text-xl font-bold text-evergreen-dark mb-2 ">Ready to Get Started?</h3>
           <p className="mb-4 text-gray-700">Join hundreds of satisfied customers who trust CROWNFIELD for their agricultural needs.</p>

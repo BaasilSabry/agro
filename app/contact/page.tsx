@@ -9,9 +9,11 @@ export default function ContactPage() {
     <div className="min-h-screen bg-[#FDFDF9]">
       <Navigation />
       <ContactHero />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <ContactForm />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div className="self-start">
+            <ContactForm />
+          </div>
           <ContactInfo />
         </div>
       </div>

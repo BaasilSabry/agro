@@ -46,8 +46,8 @@ export function ContactForm() {
         <CardTitle className="text-2xl text-evergreen-dark">Send Us a Message</CardTitle>
       </CardHeader>
       <CardContent>
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <form onSubmit={handleSubmit} className="pb-0 mb-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                 Full Name *
@@ -78,7 +78,7 @@ export function ContactForm() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div>
               <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
                 Phone Number
@@ -107,7 +107,7 @@ export function ContactForm() {
             </div>
           </div>
 
-          <div>
+          <div className="mb-6">
             <label htmlFor="inquiryType" className="block text-sm font-medium text-gray-700 mb-2">
               Inquiry Type *
             </label>
@@ -125,7 +125,7 @@ export function ContactForm() {
             </Select>
           </div>
 
-          <div>
+          <div className="mb-6">
             <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
               Message *
             </label>
@@ -142,7 +142,7 @@ export function ContactForm() {
 
           <Button
             type="submit"
-            className="w-full bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold py-3 rounded-lg transition-colors duration-200"
+            className="w-full bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold py-3 rounded-lg transition-colors duration-200 mb-0"
           >
             <Send size={20} className="mr-2" />
             Send Message

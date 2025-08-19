@@ -21,32 +21,32 @@ const galleryImages = [
     description: "Healthy corn crops in Uva Province",
   },
   {
-    src: "/sri-lankan-farmer-working.png",
+    src: "/farmers-at-work-local-farmers-tending-to-their-cro.png",
     title: "Farmers at Work",
     description: "Local farmers tending to their crops",
   },
   {
-    src: "/agricultural-equipment-sri-lanka.png",
+    src: "/modern-equipment-advanced-farming-machinery-in-act.png",
     title: "Modern Equipment",
     description: "Advanced farming machinery in action",
   },
   {
-    src: "/sustainable-farming-sri-lanka.png",
+    src: "/sustainable-practices--sustainable-practices-eco-f.png",
     title: "Sustainable Practices",
     description: "Eco-friendly farming techniques",
   },
   {
-    src: "/pepper-harvest-sri-lanka.png",
+    src: "pepper-harvest--pepper-harvest-hand-picking-premiu.png",
     title: "Pepper Harvest",
     description: "Hand-picking premium peppercorns",
   },
   {
-    src: "/rice-processing-sri-lanka.png",
+    src: "/rice-processing--rice-processing-traditional-rice-.png",
     title: "Rice Processing",
     description: "Traditional rice processing methods",
   },
   {
-    src: "/corn-harvest-sri-lanka.png",
+    src: "/corn-harvest--corn-harvest-fresh-corn-ready-for-ma.png",
     title: "Corn Harvest",
     description: "Fresh corn ready for market",
   },

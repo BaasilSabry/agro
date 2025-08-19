@@ -70,11 +70,11 @@ export function ProductsGrid() {
           {products.map((product, index) => (
             <Card
               key={index}
-              className="border-0 shadow-xl rounded-3xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+              className="border-1 border-gray-200 shadow-md rounded-3xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-0"
             >
-              <div className={`grid grid-cols-1 lg:grid-cols-2 ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""}`}>
+              <div className={`grid grid-cols-1 h-full min-h-full  lg:grid-cols-2 ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""}`}> 
                 {/* Image */}
-                <div className={`relative h-96 lg:h-auto ${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
+                <div className={`relative h-full min-h-full ${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
                   <img
                     src={product.image || "/placeholder.svg"}
                     alt={product.name}
@@ -85,7 +85,7 @@ export function ProductsGrid() {
 
                 {/* Content */}
                 <CardContent
-                  className={`p-8 lg:p-12 flex flex-col justify-center ${index % 2 === 1 ? "lg:col-start-1" : ""}`}
+                  className={`p-8 lg:p-12 flex flex-col justify-center h-full min-h-full ${index % 2 === 1 ? "lg:col-start-1" : ""}`}
                 >
                   <div className="flex items-center text-evergreen-orange mb-4">
                     <MapPin size={16} className="mr-2" />

@@ -11,13 +11,13 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Image
-                src="/images/evergreen-logo.png"
-                alt="EverGreen Logo"
-                width={32}
-                height={32}
+                src="/CORWNFILEDARGO.png"
+                alt="CROWNFIELD Logo"
+                width={62}
+                height={62}
                 className="rounded-full"
               />
-              <span className="text-xl font-bold">CROWNFIELD</span>
+              
             </div>
             <p className="text-gray-300 text-sm">
               Growing Sustainability. Exporting Quality. Leading sustainable agriculture in Sri Lanka.
