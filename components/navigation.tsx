@@ -31,7 +31,8 @@ export function Navigation() {
               height={40}
               className="rounded-full"
             />
-            <span className="text-xl font-bold text-evergreen-dark">EverGreen</span>
+            <span className="text-xl font-bold text-evergreen-dark">CROWNFIELD
+</span>
           </Link>
 
           {/* Desktop Navigation */}

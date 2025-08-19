@@ -3,9 +3,9 @@ export function CompanyOverview() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-evergreen-dark mb-8 animate-fade-in">About EverGreen</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-evergreen-dark mb-8 animate-fade-in">About CROWNFIELD</h1>
           <p className="text-xl text-gray-600 leading-relaxed mb-8 animate-fade-in">
-            Founded in 2025, EverGreen is a pioneering sustainable agriculture startup based in Sri Lanka. We are
+            Founded in 2025, CROWNFIELD is a pioneering sustainable agriculture startup based in Sri Lanka. We are
             dedicated to transforming the agricultural landscape by connecting local farmers with global markets while
             maintaining our commitment to environmental sustainability and community empowerment.
           </p>

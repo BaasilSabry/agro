@@ -17,7 +17,7 @@ export function Footer() {
                 height={32}
                 className="rounded-full"
               />
-              <span className="text-xl font-bold">EverGreen</span>
+              <span className="text-xl font-bold">CROWNFIELD</span>
             </div>
             <p className="text-gray-300 text-sm">
               Growing Sustainability. Exporting Quality. Leading sustainable agriculture in Sri Lanka.
@@ -117,7 +117,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-black-600 mt-8 pt-8 text-center">
-          <p className="text-gray-300 text-sm">© 2025 EverGreen. All rights reserved.</p>
+          <p className="text-gray-300 text-sm">© 2025 CROWNFIELD. All rights reserved.</p>
         </div>
       </div>
     </footer>
