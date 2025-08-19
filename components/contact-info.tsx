@@ -49,10 +49,9 @@ export function ContactInfo() {
               <Clock className="text-evergreen-orange" size={24} />
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900">Business Hours</h3>
-              <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-              <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
-            </div>
+  <h3 className="font-semibold text-gray-900">Business Hours</h3>
+  <p className="text-gray-600">All 7 days: 8:00 AM - 10:00 PM</p>
+</div>
           </div>
         </CardContent>
       </Card>
