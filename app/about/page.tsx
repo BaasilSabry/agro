@@ -13,7 +13,7 @@ export default function AboutPage() {
         <CompanyOverview />
         <MissionVisionValues />
         <MilestonesTimeline />
-        <TeamSection />
+        {/* <TeamSection /> */}
       </main>
       <Footer />
     </div>

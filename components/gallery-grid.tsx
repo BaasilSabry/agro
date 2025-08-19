@@ -6,17 +6,17 @@ import { Button } from "@/components/ui/button"
 
 const galleryImages = [
   {
-    src: "/pepper-farm-sri-lanka.png",
+    src: "/sri-lankan-pepper-plantation.png",
     title: "Pepper Plantation",
     description: "Lush pepper vines in the Central Highlands",
   },
   {
-    src: "/paddy-fields-sri-lanka.png",
+    src: "/sri-lanka-rice-fields.png",
     title: "Golden Paddy Fields",
     description: "Terraced rice fields during harvest season",
   },
   {
-    src: "/corn-plantation-sri-lanka.png",
+    src: "/sri-lanka-corn-plantation.png",
     title: "Corn Plantation",
     description: "Healthy corn crops in Uva Province",
   },

@@ -48,17 +48,17 @@ export function ServicesGrid() {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="group border-0 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 rounded-2xl overflow-hidden bg-white"
+              className="group border border-gray-100 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 rounded-2xl overflow-hidden bg-white"
             >
               <CardContent className="p-0">
                 {/* Header with gradient background */}
-                <div className="bg-gradient-to-br from-evergreen-medium to-evergreen-light p-8 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-evergreen-medium to-evergreen-dark p-8 text-white relative overflow-hidden">
                   <div className="relative z-10">
                     <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <service.icon size={32} className="text-white" />
+                      <service.icon size={32} className="text-evergreen-orange" />
                     </div>
-                    <h3 className="text-2xl font-bold mb-2 text-white">{service.title}</h3>
-                    <p className="text-gray-100">{service.shortDescription}</p>
+                    <h3 className="text-2xl font-bold text-evergreen-dark mb-2">{service.title}</h3>
+                    <p className="text-black/90">{service.shortDescription}</p>
                   </div>
                   {/* Background decoration */}
                   <div className="absolute top-4 right-4 opacity-10 group-hover:opacity-20 transition-opacity duration-300">

@@ -80,10 +80,7 @@ export function Footer() {
                 <span className="text-gray-300">Equipment Distribution</span>
               </li>
               <li>
-                <span className="text-gray-300">Farmer Support</span>
-              </li>
-              <li>
-                <span className="text-gray-300">Sustainable Farming</span>
+                <span className="text-gray-300">Sustainable Farming Support</span>
               </li>
             </ul>
           </div>
@@ -97,9 +94,20 @@ export function Footer() {
                 <span className="text-gray-300 text-sm">info@evergreen.lk</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Phone size={16} className="text-evergreen-orange" />
-                <span className="text-gray-300 text-sm">+94 11 234 5678</span>
-              </div>
+      <Phone size={16} className="text-evergreen-orange" />
+      <span className="text-gray-300 text-sm">+94 11 209 6221</span>
+    </div>
+
+    <div className="flex items-center space-x-2">
+      <Phone size={16} className="text-evergreen-orange" />
+      <span className="text-gray-300 text-sm">+94 763 855 506</span>
+    </div>
+
+    <div className="flex items-center space-x-2">
+      <Phone size={16} className="text-evergreen-orange" />
+      <span className="text-gray-300 text-sm">+94 776 118 111</span>
+    </div>
+
               <div className="flex items-center space-x-2">
                 <MapPin size={16} className="text-evergreen-orange" />
                 <span className="text-gray-300 text-sm">Colombo, Sri Lanka</span>
@@ -108,7 +116,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-600 mt-8 pt-8 text-center">
+        <div className="border-t border-black-600 mt-8 pt-8 text-center">
           <p className="text-gray-300 text-sm">© 2025 EverGreen. All rights reserved.</p>
         </div>
       </div>

@@ -6,8 +6,8 @@ export function ServicesCTA() {
     <section className="py-20 bg-evergreen-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-evergreen-dark to-evergreen-medium rounded-3xl p-12 text-center text-white shadow-2xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Agricultural Business?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-evergreen-dark mb-6">Ready to Transform Your Agricultural Business?</h2>
+          <p className="text-xl mb-8 max-w-2xl text-gray-600 mx-auto ">
             Partner with EverGreen to access sustainable farming solutions, modern equipment, and global market
             opportunities that drive growth and support environmental responsibility.
           </p>
@@ -20,7 +20,7 @@ export function ServicesCTA() {
             <Link href="/products">
               <Button
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-evergreen-dark font-semibold px-8 py-3 rounded-full text-lg transition-all duration-300 transform hover:scale-105 bg-transparent"
+                className="border-2 border-black text-black hover:bg-white hover:text-evergreen-dark font-semibold px-8 py-3 rounded-full text-lg transition-all duration-300 transform hover:scale-105 bg-transparent"
               >
                 Get Quote Now
               </Button>
