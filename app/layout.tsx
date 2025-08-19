@@ -11,7 +11,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "EverGreen - Sustainable Agriculture | Sri Lanka",
+  title: "CROWNFIELD - Sustainable Agriculture | Sri Lanka",
   description:
     "Growing Sustainability. Exporting Quality. Leading sustainable agriculture in Sri Lanka with quality produce export and farmer support.",
   generator: "v0.app",
