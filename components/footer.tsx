@@ -9,13 +9,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 ">
               <Image
-                src="/CORWNFILEDARGO.png"
+                src="/CORWNFILEDARGO-2.png"
                 alt="CROWNFIELD Logo"
-                width={62}
+                width={182}
                 height={62}
-                className="rounded-full"
+                className="rounded-full bg-white px-2 py-1"
               />
               
             </div>

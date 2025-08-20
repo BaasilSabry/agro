@@ -44,13 +44,13 @@ export function ServicesGrid() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 auto-rows-fr">
           {services.map((service, index) => (
             <Card
               key={index}
-              className="group border border-gray-100 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 rounded-2xl overflow-hidden bg-white"
+              className="group border border-gray-200 shadow-md hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 rounded-2xl overflow-hidden bg-white flex flex-col"
             >
-              <CardContent className="p-0">
+              <CardContent className="p-0 flex flex-col flex-1 flex-grow">
                 {/* Header with gradient background */}
                 <div className="bg-gradient-to-br from-evergreen-medium to-evergreen-dark p-8 text-white relative overflow-hidden">
                   <div className="relative z-10">
@@ -67,28 +67,32 @@ export function ServicesGrid() {
                 </div>
 
                 {/* Content */}
-                <div className="p-8">
-                  <p className="text-gray-600 leading-relaxed mb-6">{service.fullDescription}</p>
+                <div className="p-8 flex flex-col flex-1 flex-grow">
+                  <div className="mb-auto">
+                    <p className="text-gray-600 leading-relaxed mb-6 line-clamp-none">{service.fullDescription}</p>
 
-                  {/* Features list */}
-                  <ul className="space-y-3 mb-8">
-                    {service.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center text-sm text-gray-600">
-                        <div className="w-2 h-2 bg-evergreen-orange rounded-full mr-3 flex-shrink-0"></div>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-
-                  <Link href="/contact">
-                    <Button className="w-full bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold py-3 rounded-full transition-all duration-300 group-hover:shadow-lg">
-                      Learn More
-                      <ArrowRight
-                        size={16}
-                        className="ml-2 group-hover:translate-x-1 transition-transform duration-300"
-                      />
-                    </Button>
-                  </Link>
+                    {/* Features list */}
+                    <ul className="space-y-3 mb-8">
+                      {service.features.map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-center text-sm text-gray-600">
+                          <div className="w-2 h-2 bg-evergreen-orange rounded-full mr-3 flex-shrink-0"></div>
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  
+                  <div className="pt-4 mt-4 border-t border-gray-100">
+                    <Link href="/contact" className="block">
+                      <Button className="w-full bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold py-3 rounded-full transition-all duration-300 group-hover:shadow-lg">
+                        Learn More
+                        <ArrowRight
+                          size={16}
+                          className="ml-2 group-hover:translate-x-1 transition-transform duration-300"
+                        />
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </CardContent>
             </Card>

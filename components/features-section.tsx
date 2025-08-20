@@ -37,7 +37,7 @@ export function FeaturesSection() {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-2xl"
+              className="border-1 border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-xl"
             >
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-evergreen-light rounded-full flex items-center justify-center mx-auto mb-6">

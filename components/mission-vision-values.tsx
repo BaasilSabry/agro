@@ -37,7 +37,7 @@ export function MissionVisionValues() {
           {principles.map((principle, index) => (
             <Card
               key={index}
-              className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-2xl bg-white"
+              className="border-1 border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-2xl bg-white"
             >
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-evergreen-orange rounded-full flex items-center justify-center mx-auto mb-6">
