@@ -14,7 +14,6 @@ const slides = [
     origin: "Central Highlands, Sri Lanka",
     badge: "Premium Export",
     cta: "Explore Our Pepper",
-    price: "$12.50/kg",
   },
   {
     image: "/sri-lanka-rice-fields.png",
@@ -24,7 +23,6 @@ const slides = [
     origin: "Central Highlands, Sri Lanka",
     badge: "Best Seller",
     cta: "Discover Rice Products",
-    price: "$8.75/kg",
   },
   {
     image: "/sri-lanka-corn-plantation.png",
@@ -34,7 +32,6 @@ const slides = [
     origin: "Central Highlands, Sri Lanka",
     badge: "Seasonal Special",
     cta: "View Corn Selection",
-    price: "$5.99/kg",
   },
 ]
 
