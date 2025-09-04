@@ -146,7 +146,10 @@ export function ImageSlider() {
                     </div>
                   </div>
                   
-                  <Button className="bg-evergreen-orange hover:bg-evergreen-orange/90 text-white rounded-full group flex items-center gap-2 transition-all hover:gap-3 px-6">
+                  <Button
+                    className="bg-evergreen-orange hover:bg-evergreen-orange/90 text-white rounded-full group flex items-center gap-2 transition-all hover:gap-3 px-6"
+                    onClick={() => window.location.href = "/products"}
+                  >
                     {slide.cta}
                     <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
                   </Button>

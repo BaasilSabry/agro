@@ -3,12 +3,13 @@
 import type React from "react"
 
 import { useState } from "react"
+import emailjs from '@emailjs/browser'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Send } from "lucide-react"
+import { Send, Loader2 } from "lucide-react"
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -19,21 +20,57 @@ export function ContactForm() {
     inquiryType: "",
     message: "",
   })
+  
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      company: "",
-      inquiryType: "",
-      message: "",
-    })
-    alert("Thank you for your inquiry! We'll get back to you soon.")
+    setIsSubmitting(true)
+
+    try {
+      // EmailJS configuration
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID'
+      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID'
+      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY'
+
+      // Template parameters for EmailJS
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        phone: formData.phone,
+        company: formData.company,
+        inquiry_type: formData.inquiryType,
+        message: formData.message,
+        to_name: 'Agro Team', // You can customize this
+      }
+
+      // Send email using EmailJS
+      const response = await emailjs.send(
+        serviceId,
+        templateId,
+        templateParams,
+        publicKey
+      )
+
+      console.log('Email sent successfully:', response)
+      
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        company: "",
+        inquiryType: "",
+        message: "",
+      })
+      
+      alert("Thank you for your inquiry! We'll get back to you soon.")
+    } catch (error) {
+      console.error('Failed to send email:', error)
+      alert("Sorry, there was an error sending your message. Please try again later.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (field: string, value: string) => {
@@ -142,10 +179,20 @@ export function ContactForm() {
 
           <Button
             type="submit"
-            className="w-full bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold py-3 rounded-lg transition-colors duration-200 mb-0"
+            disabled={isSubmitting}
+            className="w-full bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold py-3 rounded-lg transition-colors duration-200 mb-0 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            <Send size={20} className="mr-2" />
-            Send Message
+            {isSubmitting ? (
+              <>
+                <Loader2 size={20} className="mr-2 animate-spin" />
+                Sending...
+              </>
+            ) : (
+              <>
+                <Send size={20} className="mr-2" />
+                Send Message
+              </>
+            )}
           </Button>
         </form>
       </CardContent>

@@ -1,3 +1,4 @@
+"use client"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { MapPin, Award, Leaf } from "lucide-react"
@@ -124,7 +125,7 @@ export function ProductsGrid() {
                     </div>
                   </div>
 
-                  <Button className="bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 w-fit">
+                  <Button className="bg-evergreen-orange hover:bg-evergreen-orange-light text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 w-fit" onClick={() => window.location.href = "/contact"}>
                     Request a Quote
                   </Button>
                 </CardContent>
