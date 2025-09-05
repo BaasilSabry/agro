@@ -91,7 +91,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Mail size={16} className="text-evergreen-orange" />
-                <span className="text-gray-300 text-sm">info@evergreen.lk</span>
+                <span className="text-gray-300 text-sm">contact@crown-field.com</span>
               </div>
               <div className="flex items-center space-x-2">
       <Phone size={16} className="text-evergreen-orange" />

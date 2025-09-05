@@ -81,7 +81,7 @@ export const SEO_CONSTANTS = {
   SITE_URL: "https://www.crown-field.com",
   DEFAULT_IMAGE: "/growing-sustainability--exporting-quality--leading.webp",
   COMPANY_DESCRIPTION: "Growing Sustainability. Exporting Quality. Leading sustainable agriculture in Sri Lanka with quality produce export and farmer support.",
-  CONTACT_EMAIL: "info@crown-field.com",
+  CONTACT_EMAIL: "contact@crown-field.com",
   PHONE: "+94-XXX-XXXXXXX", // Replace with actual phone
   ADDRESS: {
     country: "Sri Lanka",

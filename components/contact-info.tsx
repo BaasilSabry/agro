@@ -16,8 +16,8 @@ export function ContactInfo() {
             </div>
             <div>
               <h3 className="font-semibold text-gray-900">Email Us</h3>
-              <p className="text-gray-600">info@evergreen.lk</p>
-              <p className="text-gray-600">orders@evergreen.lk</p>
+              <p className="text-gray-600">contact@crown-field.com</p>
+
             </div>
           </div>
 
