@@ -12,25 +12,38 @@ export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    // Simulate page load time and ensure all components are ready
-    const timer = setTimeout(() => {
-      setIsLoading(false)
-    }, 1500) // Adjust this delay as needed
-
-    // Also hide loader when page is fully loaded
-    const handleLoad = () => {
-      setIsLoading(false)
+    const preloadHeroImage = () => {
+      const img = new Image()
+      img.src = '/growing-sustainability--exporting-quality--leading.webp'
+      
+      img.onload = () => {
+        // Image is loaded, hide spinner
+        setIsLoading(false)
+      }
+      
+      img.onerror = () => {
+        // If image fails to load, still hide spinner after a short delay
+        setTimeout(() => {
+          setIsLoading(false)
+        }, 1000)
+      }
     }
 
-    if (document.readyState === 'complete') {
+    // Start preloading the hero image
+    preloadHeroImage()
+
+    // Fallback: hide loader after maximum 3 seconds regardless
+    const fallbackTimer = setTimeout(() => {
       setIsLoading(false)
-    } else {
-      window.addEventListener('load', handleLoad)
+    }, 3000)
+
+    // Also check if page is already loaded
+    if (document.readyState === 'complete') {
+      preloadHeroImage()
     }
 
     return () => {
-      clearTimeout(timer)
-      window.removeEventListener('load', handleLoad)
+      clearTimeout(fallbackTimer)
     }
   }, [])
 
