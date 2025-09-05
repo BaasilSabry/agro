@@ -7,6 +7,10 @@ import { HeroSection } from "@/components/hero-section"
 import { FeaturesSection } from "@/components/features-section"
 import { ImageSlider } from "@/components/image-slider"
 import { PageLoader } from "@/components/loading-spinner"
+import type { Metadata } from "next"
+
+// Note: Since this is a client component, metadata should be handled in layout.tsx
+// The root layout already contains the proper metadata for the home page
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true)

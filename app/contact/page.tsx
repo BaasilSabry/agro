@@ -3,6 +3,9 @@ import { Footer } from "@/components/footer"
 import { ContactHero } from "@/components/contact-hero"
 import { ContactForm } from "@/components/contact-form"
 import { ContactInfo } from "@/components/contact-info"
+import { pageMetadata } from "@/lib/metadata"
+
+export const metadata = pageMetadata.contact
 
 export default function ContactPage() {
   return (
