@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2 ">
               <Image
-                src="/CORWNFILEDARGO-2.png"
+                src="/CORWNFILEDARGO-2.webp"
                 alt="CROWNFIELD Logo"
                 width={182}
                 height={62}

@@ -4,7 +4,7 @@ const teamMembers = [
   {
     name: "Ishantha Wijewickrama",
     position: "Founder",
-    image: "/sri-lankan-businessman.png",
+    image: "/sri-lankan-businessman.webp",
     description:
       "Visionary leader with extensive experience in sustainable agriculture and international trade operations.",
   },
@@ -18,7 +18,7 @@ const teamMembers = [
   {
     name: "Priyangi Wijewickrama",
     position: "Managing Director",
-    image: "/sri-lankan-business-woman.png",
+    image: "/sri-lankan-business-woman.webp",
     description: "Operations expert managing day-to-day business activities and farmer relationship development.",
   },
 ]

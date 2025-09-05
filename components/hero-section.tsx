@@ -8,7 +8,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(47, 93, 52, 0.4), rgba(47, 93, 52, 0.4)), url('/growing-sustainability--exporting-quality--leading.png')`,
+          backgroundImage: `linear-gradient(rgba(47, 93, 52, 0.4), rgba(47, 93, 52, 0.4)), url('/growing-sustainability--exporting-quality--leading.webp')`,
         }}
       />
 

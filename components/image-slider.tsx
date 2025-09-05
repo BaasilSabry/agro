@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 
 const slides = [
   {
-    image: "/sri-lankan-pepper-plantation.png",
+    image: "/sri-lankan-pepper-plantation.webp",
     title: "Premium Pepper",
     description: "High-quality black pepper from the hills of Sri Lanka",
     features: ["Hand-picked at peak ripeness", "Organic certification"],
@@ -16,7 +16,7 @@ const slides = [
     cta: "Explore Our Pepper",
   },
   {
-    image: "/sri-lanka-rice-fields.png",
+    image: "/sri-lanka-rice-fields.webp",
     title: "Golden Paddy Fields",
     description: "Sustainable rice cultivation supporting local communities",
     features: ["Non-GMO varieties", "Superior cooking qualities"],
@@ -25,7 +25,7 @@ const slides = [
     cta: "Discover Rice Products",
   },
   {
-    image: "/sri-lanka-corn-plantation.png",
+    image: "/sri-lanka-corn-plantation.webp",
     title: "Fresh Corn",
     description: "Nutritious corn grown with sustainable farming practices",
     features: ["Exceptional sweetness", "Rich in vitamins"],

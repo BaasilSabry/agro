@@ -6,47 +6,47 @@ import { Button } from "@/components/ui/button"
 
 const galleryImages = [
   {
-    src: "/sri-lankan-pepper-plantation.png",
+    src: "/sri-lankan-pepper-plantation.webp",
     title: "Pepper Plantation",
     description: "Lush pepper vines in the Central Highlands",
   },
   {
-    src: "/sri-lanka-rice-fields.png",
+    src: "/sri-lanka-rice-fields.webp",
     title: "Golden Paddy Fields",
     description: "Terraced rice fields during harvest season",
   },
   {
-    src: "/sri-lanka-corn-plantation.png",
+    src: "/sri-lanka-corn-plantation.webp",
     title: "Corn Plantation",
     description: "Healthy corn crops in Uva Province",
   },
   {
-    src: "/farmers-at-work-local-farmers-tending-to-their-cro.png",
+    src: "/farmers-at-work-local-farmers-tending-to-their-cro.webp",
     title: "Farmers at Work",
     description: "Local farmers tending to their crops",
   },
   {
-    src: "/modern-equipment-advanced-farming-machinery-in-act.png",
+    src: "/modern-equipment-advanced-farming-machinery-in-act.webp",
     title: "Modern Equipment",
     description: "Advanced farming machinery in action",
   },
   {
-    src: "/sustainable-practices--sustainable-practices-eco-f.png",
+    src: "/sustainable-practices--sustainable-practices-eco-f.webp",
     title: "Sustainable Practices",
     description: "Eco-friendly farming techniques",
   },
   {
-    src: "pepper-harvest--pepper-harvest-hand-picking-premiu.png",
+    src: "/pepper-harvest--pepper-harvest-hand-picking-premiu.webp",
     title: "Pepper Harvest",
     description: "Hand-picking premium peppercorns",
   },
   {
-    src: "/rice-processing--rice-processing-traditional-rice-.png",
+    src: "/rice-processing--rice-processing-traditional-rice-.webp",
     title: "Rice Processing",
     description: "Traditional rice processing methods",
   },
   {
-    src: "/corn-harvest--corn-harvest-fresh-corn-ready-for-ma.png",
+    src: "/corn-harvest--corn-harvest-fresh-corn-ready-for-ma.webp",
     title: "Corn Harvest",
     description: "Fresh corn ready for market",
   },

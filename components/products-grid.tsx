@@ -7,7 +7,7 @@ const products = [
   {
     name: "Premium Black Pepper",
     origin: "Central Highlands, Sri Lanka",
-    image: "/sri-lankan-pepper-plantation.png",
+    image: "/sri-lankan-pepper-plantation.webp",
     description:
       "Our premium black pepper is grown in the misty hills of Sri Lanka's Central Highlands, where the perfect climate and soil conditions create the world's most aromatic and flavorful peppercorns. Hand-picked at peak ripeness and sun-dried using traditional methods.",
     features: [
@@ -26,7 +26,7 @@ const products = [
   {
     name: "Golden Paddy Rice",
     origin: "Central Highlands, Sri Lanka",
-    image: "/sri-lanka-rice-fields.png",
+    image: "/sri-lanka-rice-fields.webp",
     description:
       "Our golden paddy rice is cultivated in Sri Lanka's Central Highlands using sustainable farming practices. This premium variety offers excellent nutritional value and superior cooking qualities, making it perfect for both local and international markets.",
     features: [
@@ -45,7 +45,7 @@ const products = [
   {
     name: "Sweet Corn",
     origin: "Central Highlands, Sri Lanka",
-    image: "/sri-lanka-corn-plantation.png",
+    image: "/sri-lanka-corn-plantation.webp",
     description:
       "Fresh, sweet corn grown in the fertile soils of Sri Lanka's Central Highlands. Our corn is known for its exceptional sweetness, tender kernels, and vibrant color. Harvested at optimal maturity to ensure maximum flavor and nutritional content.",
     features: [

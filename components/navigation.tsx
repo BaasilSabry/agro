@@ -25,7 +25,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="CORWNFILEDARGO-2.png"
+              src="CORWNFILEDARGO-2.webp"
               alt="CROWNFIELD Logo"
               width={180}
               height={40}
